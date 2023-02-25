@@ -15,6 +15,9 @@
 		6B7DC6872942903000629700 /* AnimationMacAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DC6862942903000629700 /* AnimationMacAppUITests.swift */; };
 		6B7DC6892942903000629700 /* AnimationMacAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DC6882942903000629700 /* AnimationMacAppUITestsLaunchTests.swift */; };
 		6B7DC6962942906400629700 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DC6952942906400629700 /* Color.swift */; };
+		6BBDEC6929AA7ADC00722B65 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDEC6829AA7ADC00722B65 /* ConfettiView.swift */; };
+		6BBDEC6B29AA7C5300722B65 /* TextChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDEC6A29AA7C5300722B65 /* TextChangeView.swift */; };
+		6BBDEC6D29AA805F00722B65 /* RoundAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDEC6C29AA805F00722B65 /* RoundAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6B7DC6862942903000629700 /* AnimationMacAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationMacAppUITests.swift; sourceTree = "<group>"; };
 		6B7DC6882942903000629700 /* AnimationMacAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationMacAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6B7DC6952942906400629700 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6BBDEC6829AA7ADC00722B65 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		6BBDEC6A29AA7C5300722B65 /* TextChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChangeView.swift; sourceTree = "<group>"; };
+		6BBDEC6C29AA805F00722B65 /* RoundAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				6B7DC66A2942902F00629700 /* AnimationMacAppApp.swift */,
+				6BBDEC6A29AA7C5300722B65 /* TextChangeView.swift */,
+				6BBDEC6C29AA805F00722B65 /* RoundAnimationView.swift */,
 				6B7DC66C2942902F00629700 /* ContentView.swift */,
+				6BBDEC6829AA7ADC00722B65 /* ConfettiView.swift */,
 				6B7DC6952942906400629700 /* Color.swift */,
 				6B7DC66E2942903000629700 /* Assets.xcassets */,
 				6B7DC6732942903000629700 /* AnimationMacApp.entitlements */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBDEC6929AA7ADC00722B65 /* ConfettiView.swift in Sources */,
+				6BBDEC6B29AA7C5300722B65 /* TextChangeView.swift in Sources */,
 				6B7DC66D2942902F00629700 /* ContentView.swift in Sources */,
 				6B7DC66B2942902F00629700 /* AnimationMacAppApp.swift in Sources */,
+				6BBDEC6D29AA805F00722B65 /* RoundAnimationView.swift in Sources */,
 				6B7DC6962942906400629700 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
