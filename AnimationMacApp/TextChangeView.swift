@@ -15,7 +15,7 @@ struct TextChangeView: View {
     
     var body: some View {
         VStack(spacing: 14){
-            Rectangle() // top
+           Rectangle()
                 .frame(width: 64, height: 10)
                 .cornerRadius(4)
                 .rotationEffect(.degrees(isRotating ? 47 : 0), anchor: .leading)

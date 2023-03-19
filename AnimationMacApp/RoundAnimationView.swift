@@ -36,7 +36,7 @@ struct RoundAnimationView: View {
                 .rotation3DEffect(.degrees(angleY), axis: (x: 0, y: 1, z: 0))
             
             ForEach(0 ..< numberOfRectangles) { i in
-                Rectangle(
+                RectangleView(
                     index: i,
                     width: width,
                     numberOfRectangles: numberOfRectangles
@@ -75,7 +75,7 @@ struct RoundAnimationView: View {
     }
 }
 
-struct Rectangle: View {
+struct RectangleView: View {
     @State private var height: CGFloat = 10
     @State private var opacity: Double = 0.4
     @State private var color: Color = .gray
